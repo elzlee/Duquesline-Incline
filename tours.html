@@ -1,0 +1,96 @@
+<!DOCTYPE html> 	<!-- Tells the browser this is HTML 5 -->
+<html lang="en"> 	<!-- Root of the html document and is in English -->
+
+<head>  <!-- The head is where the title and meta data are contained and not directly seen by the user -->
+  <!--Import Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- External Links to CSS files -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css">
+  
+  <!-- External Links to JS files -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.lightbox.min.js"></script>
+	
+
+  <!-- META tags help search engines identify your content more easily -->
+	<meta charset="utf-8" /> <!-- Specifies the character encoding for the HTML document -->
+	<meta name="author" content="Elizabeth Lee">
+	<meta name="keywords" content="Duquesne Incline">
+	<meta name="description" content="VOTED ONE OF THE TOP TEN SITES IN THE WORLD FOR VIEWING A  CITYSCAPE BY USA TODAY">
+
+  <!-- The title will appear in the menu bar of the browser -->
+  <title>Duquesne Incline - Group Tours & Field Trips</title>
+
+  <!-- JS script -->
+  <script type="text/JavaScript">
+		$(function() {
+		  $( '#gallery a' ).lightBox();
+		});
+  </script>
+  
+</head>
+
+<body><!-- The body is where the main content goes -->
+  <!--Top Nav Bar-->
+  <nav class="navBar">
+    <img class="navLogo" src="images/duquesne_incline_logo.png" alt="logo"/>
+      <a href="index.html">Home</a>
+      <a class="selected" href="#">Group Tours & Field Trips</a>  
+      <a href="plantrip.html">Plan Your Trip</a>
+      <a href="about.html">About</a> 
+      <a href="gallery.html">Gallery</a> 
+  </nav>
+
+  <!--Rest of the Page-->
+  <div id="notNav">
+    <div class="PageTitle">
+      <h1>Group Tours & Field Trips</h1>
+    </div>
+    <div id="toursTripsInfo">
+      <!--Group Tours-->
+      <div id="grouptoursinfo">
+        <h2>Duquesne Incline Group Tours</h2>
+        <h3>The tour includes:</h3>
+        <ul>
+          <li>A pictorial history of Pittsburgh's industry, inclines, sports venues, and natural disasters.</li>
+          <li>A visit to the machine room to observe the original hoisting equipment from 1877 in operation.</li>
+          <li>A panoramic view of Downtown Pittsburgh from the observation deck 400 feet above the three rivers.</li>
+        </ul>
+        <h3>Group Rates:</h3>
+        <p>Group Rates are valid for any group of 10 or more people.</p>
+        <p>Cash fares as well as Port Authority bus passes and tickets are accepted as payment. Bus transfers can be purchased at the Incline.</p>
+        <ul>
+          <li>Adults (Ages 12-64) $1.75 Each Way or $3.50 Round Trip</li>
+          <li>Children (Ages 6-11) $1.00 Each Way or $1.75 Round Trip</li>
+        </ul>
+        <p>For more details, contact Tom Reinheimer at 412-381-1665 or E-mail tomreinheimer@duquesneincline.org</p>
+      </div>
+      <!--Field Trips-->
+      <div id="fieldtripsinfo">
+        <h2>Field Trips</h2>
+        <p>A free field trip program is available for students and youth groups of ten or more daily – except Saturdays and Sundays after 12:00 noon due to weekend crowds and limited space.</p>
+        <h3>The program includes:</h3>
+        <ul>
+          <li>A teacher's lesson packet for students' specific grade level</li>
+          <li>A round trip ride on the Duquesne Incline</li>
+          <li>A history of inclines in Pittsburgh</li>
+          <li>A discussion about Pittsburgh's industrial past</li>
+          <li>A visit to the machine room to observe the original hoisting equipment in operation and learn about the engineers who built it</li>
+          <li>A panoramic view of Downtown Pittsburgh and The North Shore from our observation deck 400 feet above the three rivers</li>
+          <li>A brief history of the French and Indian War from which the city arose</li>
+        </ul>
+        <p><a href="http://www.duquesneincline.org/duquesneincline/view.php?id=1" target="_blank">Click here to make reservations.</a></p>
+      </div>
+    </div>
+    
+  </div>
+</body>
+
+
+</html>

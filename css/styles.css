@@ -1,0 +1,318 @@
+/******************/
+/* Navigation Bar */
+/******************/
+
+.navBar{
+  position:fixed;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 5px solid #438761; 
+  background-color: #FFFFFF;
+  text-align:center; 
+  width:100%;
+  height:60px;
+  top:0px;
+  z-index:1;
+}
+
+img.navLogo {
+  max-width:80%;
+  max-height:80%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-left:20px;
+  margin-top:5px;  
+  float:left;
+}
+
+.navBar a{
+  font-size: 20px;
+	font-weight: 400; /*normal*/
+	padding: 15px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px;
+  margin-top:5px;
+  height: 20px;       
+  line-height: 20px; 
+}
+
+.navBar a.selected{
+  font-weight: 700;
+  color: #438761;
+}
+
+.navBar a:hover{
+	color: #438761;
+}
+
+/************************************************/
+
+#notNav{
+  margin-top: 60px; /*don't get hidden by nav!*/
+  z-index:2;
+}
+
+img.wideview_DARK{
+  width : 100%;
+}
+
+
+
+/* Center text */
+#homePageTitle_Image_Center_Text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Bottom right text */
+#homePageTitle_Image_BottomRight_Text{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+#inclineFront_Image_BottomRight_Text{
+  position: relative;
+  bottom: 8px;
+  right: 16px;
+  margin-left: 15px;
+}
+
+/************/
+/*main fonts*/
+/************/
+h1{
+	font-size: 80px; /* http://pxtoem.com/ */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+}
+
+h2 {
+	color: #4E5886; /* Blue color for header */
+	font-size: 40px; /* http://pxtoem.com/ */
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+}
+
+h3{
+  color: #000000; /* Blue color for header */
+	font-size: 20px; /* http://pxtoem.com/ */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+p, ul{
+  font-family:"Open Sans", sans-serif;
+  color:#000000;
+}
+
+/**************/
+/*title things*/
+/**************/
+#homePageTitle{
+  position: relative;
+  text-align: center;
+}
+#homePageTitle h1 {
+  color: #FFFFFF; /* White color for Home header */
+}
+
+.PageTitle  /* CLASS, reuse for all non-Home pages*/
+{
+  padding:10px 0px 10px 0px;
+  text-align:center;
+}
+
+.PageTitle h1 {
+	color: #4E5886; /* Blue color for header */
+}
+
+
+#homePageTitle p{
+  font-family:"Open Sans", sans-serif;
+  color: #FFFFFF; /* White color for Home Title text */
+}
+
+/********************/
+/*some content divs */
+/********************/
+#contentpart0{
+  padding: 50px 50px 50px 50px;
+}
+
+#contentPart1{
+  display:flex;
+}
+
+#FindUs{
+  padding: 50px 50px 50px 50px;
+  display:inline-block;
+  float:left;
+}
+
+iframe /*google map*/
+{
+	display:inline-block;
+  margin:auto;
+  float:right;
+  padding: 50px 50px 50px 50px;
+  /*flex:50%;*/
+}
+
+
+
+#contentPart2{
+  display:flex;
+}
+
+#contentpart3{
+  padding: 0px 50px 50px 50px;
+  text-align:center;
+}
+
+#Hours{
+  padding: 50px 50px 50px 50px;
+  display:inline-block;
+}
+
+#inclineFront_img{
+  display:inline-block;
+  margin:auto;
+  padding: 50px 50px 50px 50px;
+}
+
+img.frontpic{
+  height: 120%;
+  width: 120%;
+}
+
+/****************/
+/* mailing list */
+/****************/
+#mailingListForm{
+  width: 100%;
+  margin:auto;
+  text-align:center;
+  background-color:#438761;
+  padding: 20px 20px 90px 20px;
+}
+
+#mailingListForm h2{
+  color:#ffffff;
+}
+
+input[type=text],[type=number],[type=email],[type=checkbox] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #DFE2EE;
+  border-radius: 4px;
+}
+
+input[type=text],[type=number],[type=email] {
+  width: 30%;
+}
+
+label {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.contactformbutton{
+  width: 15%;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  color: #4E5886;
+  padding: 5px;
+  font-size:20px;
+  border:none;
+}
+/***************************************/
+#grouptoursinfo{
+  display:inline-block;
+  padding: 0px 50px 0px 50px;
+  /*float:left;*/
+}
+#fieldtripsinfo{
+  display:inline-block;
+  padding: 0px 50px 50px 50px;
+}
+
+#earlyhistory{
+  padding: 0px 50px 0px 50px;
+}
+
+#citytours{
+  padding: 0px 50px 0px 50px;
+}
+
+#thingstodoafter{
+  padding: 0px 50px 50px 50px;
+}
+
+#fastfacts{
+  padding: 0px 50px 50px 50px;
+}
+#content-gallery{
+  padding: 0px 50px 50px 50px;
+}
+
+#content-gallery{
+  padding: 0px 50px 50px 50px;
+  text-align:center;
+}
+
+#galleryThumbnail1{
+  font-family:"Open Sans", sans-serif;
+  color:#000000;
+}
+img.thumbnail{
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  overflow:auto;
+}
+
+#galleryThumbnail1{
+  display:inline-block;
+}
+
+#notNav a{
+  color: #438761;
+}
+
+#notNav a:visited {
+  color: #4E5886;
+}
+
+/**************/
+/*table things*/
+/**************/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 1px;
+  text-align: left;
+  border: 1px solid #000000;
+  font-family:"Open Sans", sans-serif;
+  color:#000000;
+  /*flex:50%;*/
+}
+
+table th, td{
+	border: 1px solid #D1CFD7; /*Duquesne Gray*/
+	padding: 4px 4px 4px 4px;
+}
+
+table th{
+	height: 40px;
+  font-weight: 400;
+  background:#F7F7FA; /*lightest gray*/
+}

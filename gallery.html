@@ -1,0 +1,83 @@
+<!DOCTYPE html> 	<!-- Tells the browser this is HTML 5 -->
+<html lang="en"> 	<!-- Root of the html document and is in English -->
+
+<head>  <!-- The head is where the title and meta data are contained and not directly seen by the user -->
+  <!--Import Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+  
+  <!-- External Links to CSS files -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css">
+  
+  <!-- External Links to JS files -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.lightbox.min.js"></script>
+
+  <!-- META tags help search engines identify your content more easily -->
+	<meta charset="utf-8" /> <!-- Specifies the character encoding for the HTML document -->
+	<meta name="author" content="Elizabeth Lee">
+	<meta name="keywords" content="Duquesne Incline">
+	<meta name="description" content="VOTED ONE OF THE TOP TEN SITES IN THE WORLD FOR VIEWING A  CITYSCAPE BY USA TODAY">
+
+  <!-- The title will appear in the menu bar of the browser -->
+  <title>Duquesne Incline - Gallery</title>
+
+  <!-- JS script -->
+  <script type="text/JavaScript">
+		$(function() {
+		  $( '#gallery a' ).lightBox();
+		});
+  </script>
+  
+</head>
+
+<body><!-- The body is where the main content goes -->
+  <!--Top Nav Bar-->
+  <nav class="navBar">
+    <img class="navLogo" src="images/duquesne_incline_logo.png" alt="logo"/>
+      <a href="index.html">Home</a>
+      <a href="tours.html">Group Tours & Field Trips</a>  
+      <a href="index.html">Plan Your Trip</a>
+      <a href="about.html">About</a> 
+      <a class="selected" href="#">Gallery</a> 
+  </nav>
+
+  <!--Rest of the Page-->
+  <div id="notNav">
+    <div class="PageTitle">
+      <h1>Gallery</h1>
+    </div>
+
+    <div id="content-gallery">
+      <p>Click on the thumbnail to see full image and description.</p>
+      <div id="gallery">
+        <div id="galleryThumbnail1"><div id="thmbnlShadow1">
+        <a href="images/1gear.jpg" title="The famous wooden gear teeth. Photo courtesy of http://www.duquesneincline.org/ .">
+        <img class="thumbnail" src="images/1gear.jpg" alt="image 1"/></a></div></div>
+       
+        <div id="galleryThumbnail2"><div id="thmbnlShadow2">
+        <a href="images/2gears.jpg" title="The famous wooden gear teeth. Photo courtesy of http://www.duquesneincline.org/ .">
+        <img class="thumbnail" src="images/2gears.jpg" alt="image 2"></a></div></div>
+       
+        <div id="galleryThumbnail3"><div id="thmbnlShadow3">
+        <a href="images/cloudyview.jpg" title="A beautiful view of Pittsburgh from the incline on a cloud day. Photo courtesy of The Duquesne Incline Facebook.">
+        <img class="thumbnail" src="images/cloudyview.jpg" alt="image 3"></a></div></div>
+
+        <div id="galleryThumbnail4"><div id="thmbnlShadow4">
+        <a href="images/insidecar.jpg" title="Inside an incline car. Photo courtesy of http://www.duquesneincline.org/ . ">
+        <img class="thumbnail" src="images/insidecar.jpg" alt="image 4"></a></div></div>
+
+        <div id="galleryThumbnail5"><div id="thmbnlShadow5">
+        <a href="images/machine.jpg" title="A black and white image. Photo courtesy of The Duquesne Incline Facebook.">
+        <img class="thumbnail" src="images/machine.jpg" alt="image 5"></a></div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
